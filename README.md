@@ -77,4 +77,55 @@ Deployed and configured Cowrie, a medium-interaction honeypot, on a Linux enviro
     </td>
   </tr>
 </table>
-<p>To type out all the discriptions for each of the packages would be a lot of text so here is the list of all the packages that is within the commanad and what they do</p>
+<p>To type out all the descriptions for each of the packages would be a lot of text, so here is the list of all the packages that are within the command and what they do</p>
+<h3>Step 4: Clone and Set Up Crowrie</h3>
+<p>This part will be a little extensive, not too much, but it has a few steps within it, so let's get to it.</p>
+<strong>1. Clone the Cowrie honeypot code from GitHub</strong>
+<table>
+  <tr>
+    <td>
+      <img src="https://i.imgur.com/hnF35z7.png" alt="screenshot"/>
+    </td>
+  </tr>
+</table>
+<strong>2. Go into the Cowrie folder</strong>
+<table>
+  <tr>
+    <td>
+      <img src="https://i.imgur.com/Hk999PO.png" alt="screenshot"/>
+    </td>
+  </tr>
+</table>
+<strong>3. Create a Python virtual environment named "cowrie-env"</strong>
+<table>
+  <tr>
+    <td>
+      <img src="https://i.imgur.com/EeMept9.png" alt="screenshot"/>
+    </td>
+  </tr>
+</table>
+<strong>4. Activate the virtual environment</strong>
+<table>
+  <tr>
+    <td>
+      <img src="https://i.imgur.com/f4fFQ9p.png" alt="screenshot"/>
+    </td>
+  </tr>
+  <p>(You'll know it's active if you see something like (cowrie-env) at the beginning of your terminal prompt.)</p>
+</table>
+<strong>5. Upgrade pip (Python's package installer)</strong>
+<table>
+  <tr>
+    <td>
+      <img src="https://i.imgur.com/tLbfTXa.png" alt="screenshot"/>
+    </td>
+  </tr>
+</table>
+<strong>6. Install Cowrie's required Python libraries</strong>
+<table>
+  <tr>
+    <td>
+      <img src="https://i.imgur.com/M0ycOvX.png" alt="screenshot"/>
+    </td>
+  </tr>
+</table>
