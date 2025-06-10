@@ -88,6 +88,7 @@ Deployed and configured Cowrie, a medium-interaction honeypot, on a Linux enviro
     </td>
   </tr>
 </table>
+<p>This command is telling the system, "Download all the source code, configuration files, and documentation for the Crowrie honeypot onto the local machine."</p>
 <strong>2. Go into the Cowrie folder</strong>
 <table>
   <tr>
@@ -96,6 +97,7 @@ Deployed and configured Cowrie, a medium-interaction honeypot, on a Linux enviro
     </td>
   </tr>
 </table>
+<p>Now that you have the honeypot source code downloaded, the computer has it located in a folder called cowrie/ in the current directory. We want to move into that folder so we can have control of the honeypot. The following commands only work if you're inside the cowrie/ folder.</p>
 <strong>3. Create a Python virtual environment named "cowrie-env"</strong>
 <table>
   <tr>
@@ -104,6 +106,7 @@ Deployed and configured Cowrie, a medium-interaction honeypot, on a Linux enviro
     </td>
   </tr>
 </table>
+<p>This command is creating a self-contained Python environment, aka a sandbox, just for Cowrie and its dependencies</p>
 <strong>4. Activate the virtual environment</strong>
 <table>
   <tr>
@@ -111,8 +114,8 @@ Deployed and configured Cowrie, a medium-interaction honeypot, on a Linux enviro
       <img src="https://i.imgur.com/f4fFQ9p.png" alt="screenshot"/>
     </td>
   </tr>
-  <p>(You'll know it's active if you see something like (cowrie-env) at the beginning of your terminal prompt.)</p>
 </table>
+<p>(You'll know it's active if you see something like (cowrie-env) at the beginning of your terminal prompt.)</p>
 <strong>5. Upgrade pip (Python's package installer)</strong>
 <table>
   <tr>
@@ -121,6 +124,7 @@ Deployed and configured Cowrie, a medium-interaction honeypot, on a Linux enviro
     </td>
   </tr>
 </table>
+<p>This will upgrade the Python manager pip to the latest version. It will also ensure you're using a modern, secure, and compatible version to install Cowrie's dependencies </p>
 <strong>6. Install Cowrie's required Python libraries</strong>
 <table>
   <tr>
@@ -129,3 +133,4 @@ Deployed and configured Cowrie, a medium-interaction honeypot, on a Linux enviro
     </td>
   </tr>
 </table>
+<p>This command looks at Cowrie's "requirements.txt" file and then installs all the Python libraries Cowrie needs to run: twisted (for SSH emulation), bcrypt(for password handling), pysan1, cryptography, etc.</p>
