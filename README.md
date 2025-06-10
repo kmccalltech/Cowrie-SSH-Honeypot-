@@ -4,7 +4,7 @@
 <img src="https://i.imgur.com/SpP6fsr.png" alt="honeypot logo"/>
 </p>
 
-<h1>Cowrie - SSH Honeypot Threat Simulation &amp; Log Analysis </h1>
+<h1>Cowrie - SSH Honeypot Threat Simulation &amp; Log Analysis (Config) </h1>
   <p>
 Deployed and configured Cowrie, a medium-interaction honeypot, on a Linux environment using a Chromebook terminal. Simulated brute-force SSH attacks and analyzed attacker behavior through JSON logs. Used fake login attempts and command execution to capture realistic threat data.
   </p>
@@ -134,3 +134,13 @@ Deployed and configured Cowrie, a medium-interaction honeypot, on a Linux enviro
   </tr>
 </table>
 <p>This command looks at Cowrie's "requirements.txt" file and then installs all the Python libraries Cowrie needs to run: twisted (for SSH emulation), bcrypt(for password handling), pysan1, cryptography, etc.</p>
+<h3>Step 6: Run Crowrie</h3>
+<table>
+  <tr>
+    <td>
+      <img src="https://i.imgur.com/bXmdfX0.png" alt="screenshot"/>
+    </td>
+  </tr>
+</table>
+<p>Last thing we need to do is test and making sure its operational. Type in the command "bin/cowrie start" to run cowrie.</p>
+<strong>That's it for this first part of this walkthrough next we will begin actually using this Cowrie honeypot to check for logs and documenting them!</strong>
